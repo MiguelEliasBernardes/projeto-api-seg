@@ -1,0 +1,30 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Responses\ApiResponse;
+use Illuminate\Http\Request;
+
+
+class ClienteController extends Controller
+{
+    public function salvar()
+    {
+
+    }
+
+    public function editar(int $id)
+    {
+
+    }
+
+    public function listar()
+    {
+        return ApiResponse::success(data:["nome" => "Lucas"]);
+    }
+
+    public function excluir(int $id)
+    {
+
+    }
+}
